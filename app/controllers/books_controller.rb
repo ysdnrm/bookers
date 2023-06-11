@@ -30,8 +30,8 @@ class BooksController < ApplicationController
 
      @book = Book.find(params[:id])
      
-　　# 更新内容（book_params）が入っているのが@book
-　　# バリデーションの実装は流れが大事
+     # 更新内容（book_params）が入っているのが@book
+     # バリデーションの実装は流れが大事
      if @book.update(book_params)
        flash[:notice] = "Book was successfully updated."
        redirect_to book_path(@book.id)

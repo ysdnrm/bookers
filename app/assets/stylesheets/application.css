@@ -13,3 +13,112 @@
  *= require_tree .
  *= require_self
  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+strong {
+  font-weight: bold;
+}
+
+body {
+  margin: 33px;
+  font-size: 13px;
+  font-family: Verdana, Arial Black, helvetica, sans-serif;
+}
+
+h1 {
+  line-height: 1;
+  margin-bottom: 15px;
+}
+
+.heading-text {
+  margin: 33px;
+  margin-top: 10px;
+  line-height: 4;
+}
+
+strong {
+  font-weight: bold;
+  margin: 5px;
+}
+
+table {
+  display: table;
+  line-height: 2;
+   border-spacing: 10px;
+}
+
+thead {
+  display: table-header-group;
+  text-align: center;
+}
+
+tbody {
+  display: table-row-group;
+}
+
+h2 {
+  margin: 15px 0;
+}
+
+h4 {
+  font-weight: lighter;
+}
+.field,
+.actions {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.errors_explanation {
+  display: inline-block;
+  width: 450px;
+  border: solid 2px red;
+  background-color: #f0f0f0;
+}
+.errors_explanation h2 {
+  background-color: #c00;
+  color: #fff;
+  font-size: 12px;
+  margin: 0;
+  padding: 5px 5px 5px 15px;
+}
+
+/* .field_with_errors:requored {*/
+/*  background-color: red;*/
+/*  padding: 3px;*/
+/*  display: table;*/
+/*}*/
+
+ul {
+  margin: 33px;
+  list-style: square;
+  padding: 0 33px;
+  
+}
+
+input {
+  padding: 1px 6px;
+}
+
+ .detail {
+   line-height: 2;
+   margin: 30px;
+ }
+ 
+ .btn {
+   display: flex;
+ }
+ 
+.btn-part {
+  margin: 0 5px 0 0;
+}
+
+.flash {
+  color: #669933;
+  margin: 25px 33px;
+}
