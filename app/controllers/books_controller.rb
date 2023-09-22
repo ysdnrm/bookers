@@ -5,7 +5,7 @@ class BooksController < ApplicationController
   def index
     @book = Book.new
     @books = Book.all
-    
+
   end
 
   def create
@@ -30,7 +30,7 @@ class BooksController < ApplicationController
   def update
 
      @book = Book.find(params[:id])
-     
+
      # 更新内容（book_params）が入っているのが@book
      # バリデーションの実装は流れが大事
      if @book.update(book_params)
